@@ -1,7 +1,7 @@
 # 前端全栈开发框架
 
 ## 相关框架/组件
-- [react18](https://reactjs.org/)
+- [react18](https://reactjs.org/): 核心框架
 - [typescript](https://www.typescriptlang.org/): 类型声明
 - [vite5](https://cn.vitejs.dev/): 构建工具
 - [tailwindcss](https://tailwindcss.com/): 原子化 css
