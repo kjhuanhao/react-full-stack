@@ -31,6 +31,8 @@ pnpm install
 ```bash
 pnpm run commit
 ```
+> 如果你想修改 commit 规范，需要修改`commitlint.config.js`
+
 
 ## 后端
 采用 [nestjs](https://docs.nestjs.com/)作为后端框架，正在开发中，支持的特色如下
