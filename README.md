@@ -27,7 +27,7 @@ pnpm install
 
 ## 如何使用
 ### 快速commit操作
-[commit.gif](./img/commit.gif)
+![commit.gif](./img/commit.gif)
 ```bash
 pnpm run commit
 ```
