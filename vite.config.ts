@@ -7,6 +7,9 @@ import { resolve } from 'path'
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  build: {
+    outDir: 'dist'
+  },
   base: './',
   resolve: {
     alias: {
