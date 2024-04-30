@@ -15,7 +15,7 @@
 1. 使用[stylelint](https://stylelint.io/), [eslint](https://eslint.org/), [prettier](https://prettier.io/)进行代码规范化和格式化，
 2. 使用 [commitlint](https://commitlint.js.org/)和[cz-git](https://cz-git.qbb.sh/zh/)规范和优化 commit 操作
 3. 使用 [husky](https://typicode.github.io/husky/)的hooks对 commit 进行校验，并在之前执行代码的检查和格式化操作
-4. 支持前端国际化，使用 react-i18next 作为前端国际化方案，并使用 [bbt](https://github.com/wakeadmin/bbt-tools)自动化翻译，你可以在该项目中，只关心中文，其他语言交给bbt 框架去自动翻译，该框架使用简单，无需有任何的学习负担，具体可查阅项目文档
+4. 支持前端国际化，使用 `react-i18next` 作为前端国际化方案
 5. 支持主题明暗的切换，已在 `main.tsx` 中引入，你只需要专注编写你的样式类，在需要切换的时候，使用`import { useTheme } from '@/components/ThemeProvider'` 或者在`localStorage`设置`theme`值即可，具体可查看`src/components/ThemeProvider/`组件的源代码
 
 ## 如何运行
